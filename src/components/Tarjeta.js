@@ -22,7 +22,6 @@ export default function Tarjeta(props) {
     background: "#ff6961"
   }
   const abreImagen= (e) => {
-    console.log(e.target.src);
     window.open(e.target.src);
   }
 
