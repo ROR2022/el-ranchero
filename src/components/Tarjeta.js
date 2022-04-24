@@ -13,6 +13,8 @@ const tar = {
 }
 
 
+
+
 export default function Tarjeta(props) {
   
  
@@ -21,7 +23,10 @@ export default function Tarjeta(props) {
   }
   return (
     <div style={mainStyle}>
+        <a href={`https://github.com/ROR2022/el-ranchero/blob/gh-pages/${props.item.img}`}>
         <img style={tar} src={props.item.img} alt='' />
+        </a>
+        
         
     </div>
   )
