@@ -1,0 +1,40 @@
+.logo {
+    width: 20vw;
+    padding: 2vw;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cabecera {
+    display: flex;
+    position: relative;
+    margin: 0vw;
+    background-color: #ff6961;
+
+}
+.titulo {
+    position: relative;
+    margin: 1vw;
+    font-size: 9vw;
+    left: 0vw;
+    color: #C72A00;
+    font-family: 'Rye', cursive;
+    -webkit-text-stroke: .001px #000;
+    cursor: pointer;
+}
+.subtitulo {
+    position: absolute;
+    top: 10vw;
+    left: 25vw;
+    font-size: 8vw;
+    color: #aaa;
+    font-family: 'Sansita Swashed', cursive;
+}
+.menuImg {
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    top: 10vw;
+    left: 93vw;
+    cursor: pointer;
+}
+

@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    background-color: #ff6961;
+}
+
+.logoface {
+    width: 10vw;
+    position: relative;
+    margin: 3vw;
+    left: 25vw;
+}

@@ -1,0 +1,42 @@
+.lona {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background: #ff6961;
+    
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 16vw;
+    color: #C72A00;
+    -webkit-text-stroke: .001px #000;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: #C72A00;
+    font-size: 10vw;
+}
+
+.cali2{
+    font-size: 14vw;
+    margin-bottom: -2vw;
+}
+.cali3{
+    font-size: 19vw;
+}
+
+.tel {
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 15vw;
+    padding-bottom: 5vw;
+}
+
+.img {
+    width: 14vw;
+    height: 14vw;
+}
+
+.num {
+    font-size: 13vw;
+}
