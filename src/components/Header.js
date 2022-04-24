@@ -11,7 +11,7 @@ export default function Header(props) {
     setEstado (prevEstado => !prevEstado)
   }
 
-  
+  //cambie el logo
   return (
     <div className='cabecera'>
         <img className="logo" src="./images/qrcode.png" alt='' />
