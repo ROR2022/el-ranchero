@@ -75,6 +75,11 @@ export default {
             id: 14,
             img: './images/chorizo15.jpg',
             like: true
+        },
+        {
+            id: 15,
+            img: './images/qrcode.png',
+            like: true
         }
     ]
 }

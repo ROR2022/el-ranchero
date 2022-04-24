@@ -13,7 +13,7 @@ export default function Main() {
 
   const hideTar = (id) => {
     setEstado(prevEstado => {
-      return prevEstado.filter(item=> item.id!=id)
+      return prevEstado.filter(item=> item.id!==id)
     })
   }
   const newData = estado.map(item => {
