@@ -11,10 +11,14 @@ export default function Header(props) {
     setEstado (prevEstado => !prevEstado)
   }
 
+  const muestraLogo= (e) => {
+    window.open(e.target.src)
+  }
+
   //cambie el logo
   return (
     <div className='cabecera'>
-        <img className="logo" src="./images/qrcode.png" alt='' />
+        <img className="logo" onClick={muestraLogo} src="./images/qrcode.png" alt='' />
         <h2 className='titulo' onClick={props.toggle}>EL RANCHERO</h2>
         <h3 className='subtitulo'>chorizo artesanal</h3>
         <img className='menuImg' 
