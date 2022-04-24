@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/el-ranchero/static/css/main.6b2fa906.css",
-    "main.js": "/el-ranchero/static/js/main.2aab221b.js",
+    "main.js": "/el-ranchero/static/js/main.646b5c91.js",
     "index.html": "/el-ranchero/index.html",
     "main.6b2fa906.css.map": "/el-ranchero/static/css/main.6b2fa906.css.map",
-    "main.2aab221b.js.map": "/el-ranchero/static/js/main.2aab221b.js.map"
+    "main.646b5c91.js.map": "/el-ranchero/static/js/main.646b5c91.js.map"
   },
   "entrypoints": [
     "static/css/main.6b2fa906.css",
-    "static/js/main.2aab221b.js"
+    "static/js/main.646b5c91.js"
   ]
 }
