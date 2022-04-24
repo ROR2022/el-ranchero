@@ -21,10 +21,14 @@ export default function Tarjeta(props) {
   const mainStyle = {
     background: "#ff6961"
   }
+  const abreImagen= (e) => {
+    console.log(e)
+  }
+
   return (
     <div style={mainStyle}>
         
-        <img style={tar} onClick={window.open(props.item.img)} src={props.item.img} alt='' />
+        <img style={tar} onClick={abreImagen} src={props.item.img} alt='' />
         
         
         
