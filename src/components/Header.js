@@ -14,7 +14,7 @@ export default function Header(props) {
   
   return (
     <div className='cabecera'>
-        <img className="logo" src="./images/chorizo11.jpg" alt='' />
+        <img className="logo" src="./images/qrcode.png" alt='' />
         <h2 className='titulo' onClick={props.toggle}>EL RANCHERO</h2>
         <h3 className='subtitulo'>chorizo artesanal</h3>
         <img className='menuImg' 
