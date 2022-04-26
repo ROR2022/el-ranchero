@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import './Header.css'
 import Menu from './Menu'
 
@@ -6,9 +6,16 @@ import Menu from './Menu'
 
 export default function Header(props) {
   const [estado, setEstado] = React.useState(false);
+  let refMenu= useRef(), 
+      refMenubtn= useRef();
 
   const mostrar = () => {
-    setEstado (prevEstado => !prevEstado)
+    /* setEstado (prevEstado => !prevEstado) */
+    if (refMenu.current.style.visibility === "hidden"){
+      refMenu.current.style.visibility = "visible";
+    } else {
+      refMenu.current.style.visibility = "hidden";
+    }
   }
 
   const muestraLogo= (e) => {
@@ -23,8 +30,9 @@ export default function Header(props) {
         <h3 className='subtitulo'>chorizo artesanal</h3>
         <img className='menuImg' 
         onClick={mostrar}
+        ref={refMenubtn}
         src='./images/menu.png' alt='' />
-        <Menu mostrar={estado}/>
+        <Menu ref={refMenu} style={{visibility:"hidden"}}/>
     </div>
   )
 }

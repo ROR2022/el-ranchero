@@ -11,7 +11,8 @@ export default function Menu(props) {
     display: "flex",
     flexDirection: "column",
     position: "absolute",
-    top: props.mostrar ? "0vw" : "-1000vw",
+    /* top: props.mostrar ? "0vw" : "-1000vw", */
+    top: "0vw",
     transition: "0.3s"
 } 
 return (
