@@ -12,10 +12,10 @@ export default function Header(props) {
   const mostrar = (e) => {
     /* setEstado (prevEstado => !prevEstado) */
     console.log(refMenu);
-    if (refMenu.current.style.visibility === "hidden"){
-      refMenu.current.style.visibility = "visible";
+    if (refMenu.current.style.display === "none"){
+      refMenu.current.style.display = "block";
     } else {
-      refMenu.current.style.visibility = "hidden";
+      refMenu.current.style.display = "none";
     }
     
   }
@@ -34,7 +34,7 @@ export default function Header(props) {
         onClick={mostrar}
         ref={refMenubtn}
         src='./images/menu.png' alt='' />
-        <div ref={refMenu} style={{visibility:"hidden"}}>
+        <div ref={refMenu} style={{display:"none"}}>
         <Menu />
         </div>
         
