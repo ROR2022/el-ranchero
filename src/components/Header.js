@@ -9,13 +9,15 @@ export default function Header(props) {
   let refMenu= useRef(), 
       refMenubtn= useRef();
 
-  const mostrar = () => {
+  const mostrar = (e) => {
     /* setEstado (prevEstado => !prevEstado) */
+    console.log(refMenu);
     if (refMenu.current.style.visibility === "hidden"){
       refMenu.current.style.visibility = "visible";
     } else {
       refMenu.current.style.visibility = "hidden";
     }
+    
   }
 
   const muestraLogo= (e) => {
