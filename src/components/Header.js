@@ -34,7 +34,10 @@ export default function Header(props) {
         onClick={mostrar}
         ref={refMenubtn}
         src='./images/menu.png' alt='' />
-        <Menu ref={refMenu} style={{visibility:"hidden"}}/>
+        <div ref={refMenu} style={{visibility:"hidden"}}>
+        <Menu />
+        </div>
+        
     </div>
   )
 }
