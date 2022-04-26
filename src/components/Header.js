@@ -12,10 +12,10 @@ export default function Header(props) {
   const mostrar = (e) => {
     /* setEstado (prevEstado => !prevEstado) */
     console.log(refMenu);
-    if (refMenu.current.style.top === "0vw"){
-      refMenu.current.style.top = "-1000vw";
-    } else {
+    if (refMenu.current.style.top === "-1000vw"){
       refMenu.current.style.top = "0vw";
+    } else {
+      refMenu.current.style.top = "-1000vw";
     }
     
   }

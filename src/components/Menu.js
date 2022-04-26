@@ -12,7 +12,7 @@ export default function Menu(props) {
     flexDirection: "column",
     position: "absolute",
     /* top: props.mostrar ? "0vw" : "-1000vw", */
-    top: "0vw",
+    top: "-1000vw",
     transition: "0.3s"
 } 
 return (
