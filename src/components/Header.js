@@ -12,10 +12,10 @@ export default function Header(props) {
   const mostrar = (e) => {
     /* setEstado (prevEstado => !prevEstado) */
     console.log(refMenu);
-    if (refMenu.current.style.display === "block"){
-      refMenu.current.style.display = "none";
+    if (refMenu.current.style.top === "0vw"){
+      refMenu.current.style.top = "-1000vw";
     } else {
-      refMenu.current.style.display = "block";
+      refMenu.current.style.top = "0vw";
     }
     
   }
@@ -34,9 +34,9 @@ export default function Header(props) {
         onClick={mostrar}
         ref={refMenubtn}
         src='./images/menu.png' alt='' />
-        <div ref={refMenu} style={{display:"block"}}>
-        <Menu />
-        </div>
+        
+        <Menu reff={refMenu}/>
+        
         
     </div>
   )

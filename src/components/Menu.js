@@ -16,7 +16,7 @@ export default function Menu(props) {
     transition: "0.3s"
 } 
 return (
-    <div style={menuStyle}>
+    <div ref={props.reff} style={menuStyle}>
       <a href="https://www.facebook.com/El-Ranchero-Chorizo-Artesanal-100457325995043">
           <img className='faceMenu' src='./images/face2.png' alt=''/>
       </a>
