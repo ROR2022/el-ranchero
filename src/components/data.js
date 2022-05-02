@@ -3,57 +3,65 @@ export default {
     data: [
         {
             id: 0,
-            img: './images/chorizo1.jpg',
+            img: './images/miChorizo1.png',
+            tit: "Chorizo Artesanal",
             like: true
         },
         {
             id: 1,
-            img: './images/chorizo2.jpg',
+            img: './images/enchilada.png',
+            tit: "Carne Enchilada",
             like: true
         },
         {
             id: 2,
-            img: './images/chorizo3.jpg',
+            img: './images/bistec2.png',
+            tit: "Bistec/Milaneza",
             like: true
         },
         {
             id: 3,
-            img: './images/chorizo4.jpg',
+            img: './images/bistec1.png',
+            tit: "Pieza para Bistec",
             like: true
         },
         {
             id: 4,
-            img: './images/chorizo5.jpg',
+            img: './images/molida1.png',
+            tit: "Molida",
             like: true
         },
         {
             id: 5,
-            img: './images/chorizo6.jpg',
+            img: './images/cortadillo1.png',
+            tit: "Cortadillo",
             like: true
         },
         {
             id: 6,
-            img: './images/chorizo7.jpg',
+            img: './images/trozitos1.png',
+            tit: "Trozitos",
             like: true
         },
         {
             id: 7,
-            img: './images/chorizo8.jpg',
+            img: './images/pierna1.png',
+            tit: "Pierna/Trozo",
             like: true
         },
         {
             id: 8,
-            img: './images/chorizo9.jpg',
+            img: './images/varios1.png',
             like: true
         },
         {
             id: 9,
-            img: './images/chorizo10.jpg',
+            img: './images/varios2.png',
             like: true
         },
         {
             id: 10,
-            img: './images/chorizo11.jpg',
+            img: './images/varios3.png',
             like: true
         },
         {

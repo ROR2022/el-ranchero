@@ -29,7 +29,7 @@ export default function Tarjeta(props) {
     <div style={mainStyle}>
         
         <img style={tar} onClick={abreImagen} src={props.item.img} alt='' />
-        
+        {props.item.tit && <h3>{props.item.tit}</h3>}
         
         
     </div>
