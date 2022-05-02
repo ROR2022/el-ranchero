@@ -9,7 +9,7 @@ export default {
         },
         {
             id: 1,
-            img: './images/enchilada.png',
+            img: './images/enchilada1.png',
             tit: "Carne Enchilada",
             like: true
         },
